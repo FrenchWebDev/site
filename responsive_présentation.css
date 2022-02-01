@@ -1,0 +1,306 @@
+/*premier changement a 1474px*/
+@media screen and (max-width: 1474px) {
+    table{
+        position: absolute;
+        font-size: 30px;
+        float: right;
+        margin-top: 30px;
+        right: 10%;
+    }
+}
+/*changement a 1345px*/
+@media screen and (max-width: 1345px) {
+    div.footer-colone1{
+        font-size: 18px;
+        margin: 5px;
+    }
+    p.c1{
+        margin: 15px 0;
+    }
+    div.baratin{
+        margin-left: 20%;
+        display: flex; 
+    }
+}
+/*1261px*/
+@media screen and (max-width: 1261px) {
+    div.footer-colone1{
+        font-size: 18px;
+        margin: 5px;
+    }
+    p.c1{
+        margin: 15px 0;
+    }
+    div.baratin{
+        margin-left: 16%;
+        display: flex; 
+    }
+}
+/*1201px*/
+@media screen and (max-width: 1201px) {
+    div.footer-colone1{
+        font-size: 18px;
+        margin: 5px;
+    }
+    p.c1{
+        margin: 15px 0;
+    }
+    div.baratin{
+        display: flex; 
+        margin-left: 50px;
+    }
+    div.reseaux{
+        position: relative;
+        margin: 0 35%;
+        display: flex;
+        flex-direction: row;
+    }
+    table{
+        position: absolute;
+        font-size: 30px;
+        float: right;
+        margin-top: 30px;
+        right: 1px;
+    }
+}
+/*1105px*/
+@media screen and (max-width: 1105px) {
+    table{
+        position: absolute;
+        font-size: 25px;
+        float: right;
+        margin-top: 30px;
+        right: 1px;
+    }
+    div.resumer{
+        margin-top: 50%;
+    }
+}
+/*1080*/
+@media screen and (max-width: 1090px) {
+    table{
+        position: absolute;
+        font-size: 20px;
+        float: right;
+        margin-top: 30px;
+        right: 1px;
+    }
+    div.resumer{
+        margin-top: 50%;
+    }
+    div.body{
+        margin-top: 10%;
+        display: block;
+        flex-direction: column;
+        position: relative;
+        background-image: url("font3.jpg");
+        background-size: cover;
+        background-position: -50px;
+        z-index: 1;
+    }
+}
+/*1060px*/
+@media screen and (max-width: 1060px) {
+    table{
+        position: absolute;
+        font-size: 18px;
+        float: right;
+        margin-top: 30px;
+        right: 1px;
+    }
+    div.baratin{
+        display: flex; 
+        margin-left: 0px;
+    }
+    div.resumer{
+        margin-top: 55%;
+    }
+}
+/*1045px*/
+@media screen and (max-width: 1045px) {
+    table{
+        position: absolute;
+        font-size: 18px;
+        float: right;
+        margin-top: 30px;
+        right: 1px;
+    }
+    div.baratin{
+        display: flex; 
+        margin-left: 0px;
+    }
+    div.resumer{
+        margin-top: 55%;
+    }
+    div.body{
+        margin-top: 10%;
+        display: block;
+        flex-direction: column;
+        position: relative;
+        background-image: url("font3.jpg");
+        background-size: cover;
+        background-position: -70px;
+        z-index: 1;
+    }
+}
+/*1020px*/
+@media screen and (max-width: 1020px) {
+    table{
+        position: absolute;
+        font-size: 20px;
+        float: right;
+        margin-top: 30px;
+        right: 1px;
+    }
+    div.resumer{
+        margin-top: 60%;
+    }
+    div.body{
+        margin-top: 10%;
+        display: block;
+        flex-direction: column;
+        position: relative;
+        background-image: url("font3.jpg");
+        background-size: cover;
+        background-position: -150px;
+        z-index: 1;
+    }
+    img.icon{
+        position: relative;
+        height: 400px;
+        width: auto;
+        float: right;
+        margin-right: 50px;
+    }
+}
+/*1000px*/
+@media screen and (max-width: 1000px) {
+    div.resumer{
+        margin-top: 65%;
+    }
+    div.baratin{
+        display: flex; 
+        margin-left: 0px;
+    }
+    div.footer-colone1{
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+/*919px*/
+@media screen and (max-width: 920px) {
+    div.resumer{
+        margin-top: 850px;
+    }
+    img.icon{
+        position: relative;
+        height: 350px;
+        width: auto;
+        float: right;
+        margin-right: 50px;
+    }
+    table{
+        position: absolute;
+        font-size: 20px;
+        float: left;
+        margin-top: 30px;
+        left: 1px;
+    }
+}
+/*880px*/
+@media screen and (max-width: 880px) {
+    img.icon{
+        position: relative;
+        height: 300px;
+        width: auto;
+        float: right;
+        margin-right: 10px;
+    }
+}
+/*812px*/
+@media screen and (max-width: 812px) {
+    img.wave{
+        width: 100%;
+        height: 110%;
+        position: absolute;
+        left: 0;
+        bottom: 5%;
+        display: block;
+    }
+    input.sender_mail{
+        width: 70%;
+    }
+    textarea.sender_mail{
+        width: 100%;
+    }
+    div.sendmail{
+        margin-right: 50px;
+    }
+}
+/*794px*/
+@media screen and (max-width: 794px) {
+    img.icon{
+        position: relative;
+        height: 350px;
+        width: auto;
+        float: right;
+        margin-top: -50px;
+    }
+}
+/*704px*/
+@media screen and (max-width: 704px) {
+    div.body{
+        margin-top: 10%;
+        display: block;
+        flex-direction: column;
+        position: relative;
+        background-image: url("font3.jpg");
+        background-size: cover;
+        background-position: -550px;
+        z-index: 1;
+    }
+}
+/*1714px*/
+@media screen and (min-width: 1714px) {
+    table,th,td{
+        border: 1px solid #cccccc;
+    }
+    table{
+        position: absolute;
+        font-size: 40px;
+        float: right;
+        margin-top: 150px;
+        right: 20%;
+    }
+    h1.typewriter{
+        position: relative;
+        float: left;
+        font-size: 42px;
+        margin-left: 150px;
+        margin-top: 150px;
+    }img.icon{
+        position: relative;
+        height: 600px;
+        width: auto;
+        float: right;
+        margin-right: 50px;
+        margin-top: -150px;
+    }
+    .img-svg{
+        width: 180px;
+        margin: 20px 30px;
+        margin-right: 0;
+        height: auto;
+        display: inline-flex;
+        flex-direction: column;
+        animation: anim1 2s infinite linear 1s; 
+        padding: 0;
+    }
+    p.resumer{
+        font-size: 32px;
+        margin-top: 100px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: 'Satisfy', cursive;
+    }
+}

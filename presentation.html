@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation</title>
+    <link rel="stylesheet" href="presentation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive_présentation.css">
+    <script src ="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="font" id="acceuil">
+            <img class="wave" src="wave.svg" alt="fond">
+            <h1 class="typewriter"></h1>
+        </div>
+        <div class="icon">
+            <img class="icon" src="laptop.svg" alt="laptop">
+        </div>
+        <!--menu burger-->
+        <nav class="navbar">
+            <div class="burger">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+            <ul class="class-list">
+                <li class="nav-item">
+                    <a href="#acceuil" class="nav-link">Aceuil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#formations" class="nav-link">Mes formation</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resumer" class="nav-link">Présentation</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#exp" class="nav-link">Expérience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer" class="nav-link">Footer</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="body">
+        
+        <h2 class="title1" id="formations">Mes formations:</h2>
+        <div class="icons">
+            <a class="hovertext" data-hover="HTML" href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><img class="img-svg" id="spe" src="html.svg" alt="logo-html"></a>
+            <a class="hovertext" data-hover="CSS" href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"><img class="img-svg" id="spe" src="css.svg" alt="logo-css"></a>
+            <a class="hovertext" data-hover="JavaScript" href="https://fr.wikipedia.org/wiki/JavaScript"><img class="img-svg" src="js.svg" alt="logo-js"></a>
+            <a class="hovertext" data-hover="PHP" href="https://fr.wikipedia.org/wiki/PHP"><img class="img-svg" src="php.svg" alt="logo-php"></a>
+            <a class="hovertext" data-hover="Python" href="https://www.python.org/downloads/"><img class="img-svg" src="python_vertical_logo_icon_168039.svg" alt="logo-py"></a>
+        </div>
+        <div id="r-spe">
+            <table>
+                <tr>
+                    <th>Langage</th>
+                    <th>Niveau</th>
+                </tr>
+                <tr>
+                    <td>Html-css</td>
+                    <td>Bon</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Moyen (en cours)</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Moyen (Bases acquises)</td>
+                </tr>
+                <tr>
+                    <td>Php</td>
+                    <td>Pas bon (Je commence)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="resumer" id="resumer">
+            <h2>Présentation:</h2>
+            <p class="resumer">
+                Je m’appelle  Rudy Daniel,
+                <br>
+                <br>
+                J’aime beaucoup l’informatique, plus précisément le développement.
+                <br>
+                J’ai commencé par apprende le html-css qui sont des langages web. 
+                <br>
+                Une fois la base de c’est deux langages complémentaire acquises, je me suis lancé dans le python.
+                <br>
+                Un autre univers, celui de la programmation, car contrairement aux langages précèdent le python est un langage orienté objet.
+                <br>
+                Lors de mon stage de troisième je me suis remis au web, je me concentre maintenant sur le JavaScript qui me permet de rendre les sites plus animés, et le php coté serveur. 
+                </p>
+        </div>
+    </div>
+    <div class="body2">
+        <div class="stage" id="exp">
+            <h2>Mon expérience: </h2>
+           <p class="resumer">
+                Fin 2021 j'ai fais mon stage de troisième chez <span class="link"><a href="https://www.finddoc.fr/" id="link_spe">CBS findDoc,</a></span><br>
+                Il s'agit d'un éditeur de logiciels profesionels de dématérialisation et de gestion électronique de documents <br>
+                CBS findDOC accompagne les entreprises et les collectivités territoriales depuis 2009 dans leurs projets d’organisation des flux documentaires et d’archivage collaboratif. <br>
+                Les solutions proposées par CBS findDoc sont: DEMATDOC et SENDOC. <br>
+                DEMATDOC: solution de dématérialisation, de classement et de gestion documentaire : pour archiver, retrouver, consulter, partager facilement tous les documents entrants et produits dans l’entreprise ou l’entité publique. <br>
+                SENDOC: solution d’envoi multi-filières des documents sortants : pour gagner du temps, économiser sur l’affranchissement des courriers postaux, envoyer simplement les factures, les paies, sur les plateformes de dématérialisation, archives électroniques… <br>
+
+            </p>
+            <form action="http://localhost/php1/téléchargement.php">
+                <span><input type="submit" value="télécharger" id="submit"> <br> mon rapport de stage</span>
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer id="footer">
+    <div class="reseaux">
+        <a href="https://www.instagram.com/rudy_d4n131/"><img class="reseau-icon insta" title="Instagram" src="instagram (2).svg" alt="Instagram"></a>
+        <a href="https://github.com/ledompteurdemoules"><img class="reseau-icon github"title="Github" src="github.svg" alt="Github"></a>  
+        <img class="reseau-icon discord" id="discord" title="Discord" src="discord.svg" alt="Discord">
+    </div>
+    <div class="baratin">
+        <div class="footer-colone1">
+            <p class="c1">Me contacter:</p>
+            <a class="" href="#"><p class="c1">Tel: 07 57 87 15 32</p></a>
+        </div>
+        <p id="copyright">&copy;copyright 2022</p>
+
+        <div class="sendmail">
+            <p>Laisser un commentaire: </p>
+            <form action="mailto:rudy0017@icloud.com?subject=commentaire" name="envoi" method=POST enctype="text/plain">
+                <b>Nom : </b><input class="sender_mail" type="text" name="nom"size=50 maxlength=50><br>
+                <b>Prenom : </b><input class="sender_mail" type="text" name="PRENOM"size=50 maxlength=50><br>
+                <textarea class="sender_mail" name="message" cols="60" rows="5" placeholder="écrivez votre message:"></textarea>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+    </div>
+</footer>
+
+<script src="presentation.js"></script>
+</html>
