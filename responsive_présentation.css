@@ -8,6 +8,7 @@
         right: 10%;
     }
 }
+
 /*changement a 1345px*/
 @media screen and (max-width: 1345px) {
     div.footer-colone1{
@@ -246,6 +247,9 @@
         float: right;
         margin-top: -50px;
     }
+    h2#formations{
+        display: inline-block;
+    }
 }
 /*704px*/
 @media screen and (max-width: 704px) {
@@ -302,5 +306,69 @@
         margin-left: 25%;
         margin-right: 25%;
         font-family: 'Satisfy', cursive;
+    }
+}
+
+/*630px*/
+@media screen and (max-width: 630px) {
+    div.font{
+        height: 30vh;
+        width: 100%;
+        background-color: #182EA2;
+        z-index: 10000;
+    }
+}
+/*420px*/
+@media screen and (max-width: 420px) {
+    div.font{
+        height: 35vh;
+        width: 100%;
+        background-color: #182EA2;
+        z-index: 10000;
+    }    div.stage{
+        margin-top: 900px;
+    }
+    img.icon{
+        position: relative;
+        height: 200px;
+        width: auto;
+        float: right;
+        margin-right: 50px;
+        margin-top: -10px;
+    }
+    .img-svg{
+        width: 80px;
+        left: 0;
+        height: auto;
+        display: inline-flex;
+        flex-direction: column;
+        animation: anim1 2s infinite linear 1s; 
+        padding: 0;
+    }
+}
+
+
+/*375px*/
+@media screen and (max-width: 376px) {
+    .baratin{
+        display: flex;
+        font-size: 10px;
+    }
+    img.icon{
+        position: relative;
+        height: 190px;
+        width: auto;
+        float: right;
+        margin-right: 50px;
+        margin-top: -10px;
+    }
+    .img-svg{
+        width: 70px;
+        left: 0;
+        height: auto;
+        display: inline-flex;
+        flex-direction: column;
+        animation: anim1 2s infinite linear 1s; 
+        padding: 0;
     }
 }
