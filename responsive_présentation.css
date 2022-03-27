@@ -330,11 +330,11 @@
     }
     img.icon{
         position: relative;
-        height: 200px;
+        height: 230px;
         width: auto;
-        float: right;
-        margin-right: 50px;
-        margin-top: -10px;
+        float: left;
+        margin-left: 50px;
+        margin-top: -100px;
     }
     .img-svg{
         width: 80px;
