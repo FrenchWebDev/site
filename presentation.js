@@ -40,3 +40,14 @@ discord.addEventListener("click", () => {
     alert("</Разработчик>#3202")
 });
 
+// mode clear and dark
+const input = document.getElementById("check")
+const body = document.getElementById("font")
+const img = document.getElementById("img")
+
+input.addEventListener("click", () => {
+    body.classList.toggle("active")
+    img.classList.toggle("active")
+})
+
+
