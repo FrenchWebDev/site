@@ -99,6 +99,10 @@
         background-position: -50px;
         z-index: 1;
     }
+    div.active{
+        background-color: black;
+        background-image: url();
+    }
 }
 /*1060px*/
 @media screen and (max-width: 1060px) {
@@ -143,6 +147,10 @@
         background-position: -70px;
         z-index: 1;
     }
+    div.active{
+        background-color: black;
+        background-image: url();
+    }
 }
 /*1020px*/
 @media screen and (max-width: 1020px) {
@@ -165,6 +173,10 @@
         background-size: cover;
         background-position: -150px;
         z-index: 1;
+    }
+    div.active{
+        background-color: black;
+        background-image: url();
     }
     img.icon{
         position: relative;
@@ -263,6 +275,10 @@
         background-position: -550px;
         z-index: 1;
     }
+    div.active{
+        background-color: black;
+        background-image: url();
+    }
 }
 /*1714px*/
 @media screen and (min-width: 1714px) {
@@ -356,10 +372,11 @@
     }
     img.icon{
         position: relative;
-        height: 200px;
+        height: 190px;
         width: auto;
-        margin-left: 50px;
-        margin-top: -100px;
+        float: right;
+        margin-right: 50px;
+        margin-top: -10px;
     }
     .img-svg{
         width: 70px;
@@ -371,3 +388,4 @@
         padding: 0;
     }
 }
+
