@@ -144,7 +144,6 @@ a#link_spe{
     transition: 1s;
 }
 a#link_spe:hover{
-    color: black;
     content: " ";
     height: 20px;
     background-color: aqua;
@@ -152,6 +151,9 @@ a#link_spe:hover{
 }
 span.link{
     padding-left: 5px;
+}
+a#link_spe{
+    color:#00acee;
 }
 
 /* Tableau */
@@ -178,6 +180,10 @@ div.body{
     background-image: url("font3.jpg");
     background-size: cover;
     z-index: 1;
+}
+div.active{
+    background-color: black;
+    background-image: url();
 }
 .img-svg{
     width: 160px;
@@ -296,4 +302,68 @@ input, textarea{
     50%{transform: rotate(-3deg);}
     100%{transform: rotate(3deg);}
 }
+
+
+div.btn{
+    z-index: 10;
+    position: absolute;
+}
+div input{
+    display: none;
+}
+div label{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 30px;
+}
+div label::before{
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%);
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 15px;
+    background-color: white;
+}
+div label::after{
+    content: "clear";
+    font-size: 15px;
+    margin-left: 50px;
+}
+div input:checked + label{
+    transition: 0.5s;
+    background-color: rgb(129, 129, 129);
+}
+div input:checked + label::before{
+    content: "";
+    transition: 0.5s;
+    left: 35px;
+}
+div input:checked + label::after{
+    content: "dark";
+    font-size: 15px;
+}
+div input + label{
+    transition: 0.5s;
+    background-color: #00acee;
+}
+div input + label::before{
+    transition: 0.5s;
+}
+
+body{
+    background-color: white;
+}
+body.active{
+    background-color: black;
+    color: white;
+}
+
+
 
