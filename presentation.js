@@ -22,6 +22,9 @@ new Typewriter(txtAnim, {
 .deleteChars(3)
 .typeString('<span style="color:#faff00"> Javascript')
 .pauseFor(600)
+.deleteChars(10)
+.typeString('<span style="color:purple"> PHP')
+.pauseFor(600)
 .start()
 
 // menu //
@@ -40,7 +43,7 @@ discord.addEventListener("click", () => {
     alert("</Разработчик>#3202")
 });
 
-// mode clear and dark
+
 const input = document.getElementById("check")
 const body = document.getElementById("font")
 const img = document.getElementById("img")
@@ -49,5 +52,4 @@ input.addEventListener("click", () => {
     body.classList.toggle("active")
     img.classList.toggle("active")
 })
-
 
