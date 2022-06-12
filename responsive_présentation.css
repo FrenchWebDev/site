@@ -335,13 +335,25 @@
     }
 }
 /*420px*/
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
     div.font{
         height: 35vh;
-        width: 100%;
+        width: 150%;
         background-color: #182EA2;
         z-index: 10000;
-    }    div.stage{
+    }    
+    img.wave{
+        width: 150%;
+        height: 110%;
+        position: absolute;
+        left: 0;
+        bottom: 5%;
+        display: block;
+    }
+    footer{
+        width: 150%;
+    }
+    div.stage{
         margin-top: 900px;
     }
     img.icon{
@@ -360,6 +372,16 @@
         flex-direction: column;
         animation: anim1 2s infinite linear 1s; 
         padding: 0;
+    }
+    td, tr{
+        font-size: 15px;
+    }
+    table{
+        width: 250px;
+    }
+    div.body{
+        width: 100%;
+        left: 60px;
     }
 }
 
@@ -388,4 +410,5 @@
         padding: 0;
     }
 }
+
 
