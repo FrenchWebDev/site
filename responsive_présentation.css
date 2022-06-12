@@ -379,6 +379,9 @@
     table{
         width: 250px;
     }
+    div.body{
+        background-image: url();
+    }
 }
 
 /*375px*/
