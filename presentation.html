@@ -54,16 +54,16 @@
     </header>
     <div id="img" class="body">
         
-        <h2 class="title1" id="formations">Mes formations:</h2>
+        <h2 class="title1 subTitle" id="formations">Mes formations:</h2>
         <div class="icons">
             <a class="hovertext" data-hover="HTML" href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><img class="img-svg" id="spe" src="html.svg" alt="logo-html"></a>
             <a class="hovertext" data-hover="CSS" href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"><img class="img-svg" id="spe" src="css.svg" alt="logo-css"></a>
             <a class="hovertext" data-hover="JavaScript" href="https://fr.wikipedia.org/wiki/JavaScript"><img class="img-svg" src="js.svg" alt="logo-js"></a>
-            <a class="hovertext" data-hover="Angularjs" href="https://fr.wikipedia.org/wiki/php"><img class="img-svg" src="php.svg" alt="logo-Angularjs"></a>
+            <a class="hovertext" data-hover="PHP" href="https://fr.wikipedia.org/wiki/php"><img class="img-svg" src="php.svg" alt="logo-Angularjs"></a>
             <a class="hovertext" data-hover="Python" href="https://www.python.org/downloads/"><img class="img-svg" src="python_vertical_logo_icon_168039.svg" alt="logo-py"></a>
         </div>
         <div id="r-spe">
-            <table>
+            <table class="table table-dark table-striped">
                 <tr>
                     <th>Langage</th>
                     <th>Niveau</th>
@@ -87,7 +87,7 @@
             </table>
         </div>
         <div class="resumer" id="resumer">
-            <h2>Présentation:</h2>
+            <h2 class="subTitle">Présentation:</h2>
             <p class="resumer">
                 Je m’appelle  Rudy Daniel,
                 <br>
@@ -107,7 +107,7 @@
     </div>
     <div class="body2">
         <div class="stage" id="exp">
-            <h2 id="title">Mon expérience: </h2>
+            <h2 id="title" class="subTitle">Mon expérience: </h2>
            <p class="resumer">
                 Fin 2021 j'ai fais mon stage de troisième chez <span class="link"><a href="https://www.finddoc.fr/" id="link_spe">CBS findDoc,</a></span><br>
                 Il s'agit d'un éditeur de logiciels profesionels de dématérialisation et de gestion électronique de documents <br>
@@ -136,10 +136,10 @@
         <div class="sendmail" id="commentaire">
             <p>Laisser un commentaire: </p>
             <form action="mailto:rudy0017@icloud.com?subject=commentaire" name="envoi" method=POST enctype="text/plain">
-                <b>Nom : </b><input class="sender_mail" type="text" name="nom"size=50 maxlength=50><br>
-                <b>Prenom : </b><input class="sender_mail" type="text" name="PRENOM"size=50 maxlength=50><br>
+                <p>Nom : </p><input class="sender_mail" type="text" name="nom"size=50 maxlength=50><br>
+                <p>Prenom : </p><input class="sender_mail" type="text" name="PRENOM"size=50 maxlength=50><br>
                 <textarea class="sender_mail" name="message" cols="60" rows="5" placeholder="écrivez votre message:"></textarea>
-                <input id="submit" type="submit">
+                <input id="submit" type="submit" value="Envoyer">
             </form>
         </div>
     </div>
