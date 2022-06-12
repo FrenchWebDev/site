@@ -157,15 +157,19 @@ a#link_spe{
 }
 
 /* Tableau */
-table,th,td{
-    border: 1px solid #cccccc;
-}
 table{
-    position: absolute;
-    font-size: 35px;
+    margin-top: 150px;
     float: right;
-    margin-top: 70px;
-    right: 22%;
+    margin-right: 400px;
+    background-color: #262626;
+    color: white;
+    width: 400px;
+}
+table, tr, td{
+    border: solid 1px black;
+}
+td, tr{
+    font-size: 25px;
 }
 /**/
 .body2{
@@ -308,7 +312,7 @@ div.btn{
     z-index: 10;
     position: absolute;
 }
-div input{
+div input#check{
     display: none;
 }
 div label{
@@ -336,25 +340,25 @@ div label::after{
     font-size: 15px;
     margin-left: 50px;
 }
-div input:checked + label{
+div input#check:checked + label{
     transition: 0.5s;
     background-color: rgb(129, 129, 129);
 }
-div input:checked + label::before{
+div input#check:checked + label::before{
     content: "";
     transition: 0.5s;
     left: 35px;
 }
-div input:checked + label::after{
+div input#check:checked + label::after{
     content: "dark";
     font-size: 15px;
 }
-div input + label{
+div input#check + label{
     transition: 0.5s;
     background-color: #00acee;
 }
-div input + label::before{
-    transition: 0.6s;
+div input#check + label::before{
+    transition: 0.5s;
 }
 
 body{
@@ -365,5 +369,8 @@ body.active{
     color: white;
 }
 
+.subTitle{
+    color: #182EA2;
+}
 
 
